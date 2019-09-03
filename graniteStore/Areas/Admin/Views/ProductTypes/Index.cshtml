@@ -1,0 +1,49 @@
+﻿@model IEnumerable<graniteStore.Models.ProductTypes>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<br/><br/>
+
+<div class="row">
+
+    <div class="col-6">
+        <h2>Product Types</h2>
+    </div>
+
+    <div class="col-6 text-right">
+        <a asp-action="Create">New Product Type</a>
+    </div>
+
+</div>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+           
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+
+            <th>
+                <label> Operations </label>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td class="text-right">
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
