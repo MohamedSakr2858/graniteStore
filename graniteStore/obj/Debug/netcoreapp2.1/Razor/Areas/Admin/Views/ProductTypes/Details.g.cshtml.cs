@@ -85,7 +85,7 @@ using graniteStore.Models;
             WriteLiteral("\r\n        </dd>\r\n    </dl>\r\n</div>\r\n<div>\r\n    ");
             EndContext();
             BeginContext(380, 78, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "46ea5b9f562748acbcdd3bcbc9dbfcfa", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "03f038ae4fe94ac7a082805d68c414ac", async() => {
                 BeginContext(450, 4, true);
                 WriteLiteral("Edit");
                 EndContext();
@@ -121,7 +121,7 @@ using graniteStore.Models;
             WriteLiteral(" <br/>\r\n    ");
             EndContext();
             BeginContext(470, 38, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cbbcdf4d7b0040c4a6280f91f4e75a23", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "43867e4a3806475b8f94f76466150e50", async() => {
                 BeginContext(492, 12, true);
                 WriteLiteral("Back to List");
                 EndContext();

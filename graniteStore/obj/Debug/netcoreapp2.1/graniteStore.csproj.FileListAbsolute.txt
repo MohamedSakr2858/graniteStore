@@ -42,3 +42,4 @@ C:\Users\student\Documents\repos\graniteStore\graniteStore\obj\Debug\netcoreapp2
 C:\Users\student\Documents\repos\graniteStore\graniteStore\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\ProductTypes\Create.g.cshtml.cs
 C:\Users\student\Documents\repos\graniteStore\graniteStore\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\ProductTypes\Edit.g.cshtml.cs
 C:\Users\student\Documents\repos\graniteStore\graniteStore\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\ProductTypes\Details.g.cshtml.cs
+C:\Users\student\Documents\repos\graniteStore\graniteStore\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\ProductTypes\Delete.g.cshtml.cs
