@@ -13,5 +13,7 @@ namespace graniteStore.Models
 
         [Required]
         public string Name { get; set; }
+        
+        
     }
 }
