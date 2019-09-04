@@ -37,13 +37,56 @@ namespace graniteStore.Areas.Admin.Controllers
             return View();
         }
 
+        
+
+        public IActionResult Edit(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var productType = _db.ProductTypes.Find(id);
+
+            if (productType == null)
+            {
+                return NotFound();
+            }
+
+            return View(productType);
+        }
+
+
         [HttpPost]
 
         public IActionResult Create(ProductTypes productTypes)
         {
+            
             if (ModelState.IsValid)
             {
                 _db.Add(productTypes);
+                _db.SaveChanges();
+                return RedirectToAction(nameof(Index));
+
+
+            }
+
+            return View();
+        }
+
+        public IActionResult Edit(int id, ProductTypes productTypes)
+        {
+            if (id != productTypes.id)
+            {
+                return NotFound();
+
+
+            }
+
+
+            if (ModelState.IsValid)
+            {
+                _db.Update(productTypes);
                 _db.SaveChanges();
                 return RedirectToAction(nameof(Index));
 
